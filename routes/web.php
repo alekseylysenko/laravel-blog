@@ -34,3 +34,4 @@ Route::group(['prefix' => 'admin', 'middleware' => 'checkrole'], function(){
     Route::resource('galleries', 'GalleryController');
 });
 
+

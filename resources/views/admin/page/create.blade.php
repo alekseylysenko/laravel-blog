@@ -62,7 +62,7 @@
 @section('javascript')
 
     <script src="/js/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
+    <script src="https://cdn.ckeditor.com/4.14.0/full-all/ckeditor.js"></script>
 
     <script>
         CKEDITOR.replace( 'details' );

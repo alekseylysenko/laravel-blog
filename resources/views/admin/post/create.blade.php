@@ -67,15 +67,21 @@
     </div>
 @endsection
 @section('javascript')
-
-<script src="/js/jquery-3.5.1.min.js"></script>
-<script src="https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
-<script src="/js/select2.min.js"></script>
+    <script src="/ckfinder/ckfinder.js"></script>
     <script>
-        CKEDITOR.replace( 'details' );
+        CKFinder.popup({
+            height: 600
+        });
+    </script>
+<script src="/js/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.14.0/full-all/ckeditor.js"></script>
+<script src="/js/select2.min.js"></script>
+
+    <script>
+
+        CKEDITOR.replace( 'details');
         $('#category_id').select2({
                 placeholder: "Select categories"
-
         });
     </script>
 

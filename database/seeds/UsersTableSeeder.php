@@ -19,7 +19,7 @@ class UsersTableSeeder extends Seeder
                 'name' => 'Alex',
                 'email' => 'lysenko-a@mail.ru',
                 'password' => bcrypt('Gromozeka1'),
-                'isAdmin' => '1',
+                'isAdmin' => '0',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -27,7 +27,7 @@ class UsersTableSeeder extends Seeder
                 'name' => 'Lesha34',
                 'email' => 'alsochi22@gmail.ru',
                 'password' => bcrypt('Gromozeka1'),
-                'isAdmin' => '0',
+                'isAdmin' => '1',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
